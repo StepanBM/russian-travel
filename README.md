@@ -15,4 +15,4 @@
 
 **Проект**
 
-* [Ссылка на проект GitHub Pages]
+* [Ссылка на проект GitHub Pages](https://stepanbm.github.io/russian-travel/)
