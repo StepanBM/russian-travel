@@ -10,10 +10,10 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" alt="Путешествия по России" src="images/header-logo.svg">
-      <nav class="header__menu">
+      <div class="header__lang">
         <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
-      </nav>
+      </div>
     </header>
 
     <main class="content">
@@ -61,7 +61,7 @@
         <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -77,8 +77,8 @@
             наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в 
             спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -94,8 +94,8 @@
             а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться 
             с билетом в Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -110,8 +110,8 @@
             всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. 
             И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -125,8 +125,8 @@
             Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость 
             на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -141,7 +141,7 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
@@ -155,12 +155,19 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__menu">
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
       </nav>
       <p class="footer__copyright">&copy; 2020. Степан</p>
     </footer>
