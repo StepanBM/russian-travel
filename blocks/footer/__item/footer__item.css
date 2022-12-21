@@ -2,10 +2,6 @@
   margin-right: 18px;
 }
 
-.footer__item:last-child {
-  margin: 0;
-}
-
 @media screen and (max-width: 690px){
   .footer__item{
     margin-right: 0;
